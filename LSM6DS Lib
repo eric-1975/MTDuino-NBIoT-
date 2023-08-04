@@ -1,2 +1,5 @@
 LSM6DS Lib
 https://github.com/adafruit/Adafruit_LSM6DS
+
+If want use Arduino_LSM6DS3 library need do something follow as open library LSM6DS3.cpp find LSM6DS3 Class::begin()
+row line 7. if(....==0x6c ||....==0x69)) change either to 0x6A
